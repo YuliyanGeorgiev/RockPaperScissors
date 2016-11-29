@@ -1,0 +1,74 @@
+body {
+	text-align: center;
+    background-color: rgb(49, 165, 235);
+	font-size: 40px;
+	color: white;
+}
+
+h4 {
+  margin-top: 25px;
+}
+.row {
+  margin-bottom: 20px;
+}
+.row .row {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+[class*="col-"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.player{
+	padding-top: 150px;
+    padding-right: 80px;
+    padding-bottom: 150px;
+    padding-left: 150px;
+	border-radius: 30px;
+	border-style: solid;
+	border-color: white;
+}
+
+.highlighted{
+	border-color: rgb(108, 255, 8);
+	
+}
+
+#rock{
+	background: url(rock.png);
+	
+}
+
+#paper{
+	background: url(paper.png);
+}
+#scissors{
+	background: url(scissors.png);
+}
+
+.start{
+	background-color: Transparent;
+	border-radius: 12px;
+    color: white;
+    border: 2px solid white;
+	font-size: 30px;
+}
+
+.again{
+	background-color: Transparent;
+	border-radius: 12px;
+    color: white;
+    border: 2px solid white;
+	font-size: 30px;
+}
+
+#opponent{
+	font-size: 200px;
+}
